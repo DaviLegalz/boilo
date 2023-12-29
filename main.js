@@ -1,0 +1,19 @@
+function newImage()
+{
+    fabric.Image.fromURL('BirthdayImage.jpg', function(img) {
+    blockImageObject = Img; 
+    
+    blockImageObject.scaleToWidth(700);
+    blockImageObject.scaleToHeight(510)
+    blockImageObject.set({
+    top:0,
+    left:0
+    });
+    canvas.add(blockImageObject);
+    });
+}
+
+function playSound()
+{
+    x.play();
+}
